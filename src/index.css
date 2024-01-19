@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, img {
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+:root {
+  --white: #fafafa;
+  --black: #262626;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.stroke-white-not {
+  -webkit-text-stroke: 0px;
+}
+
+.stroke-white {
+  -webkit-text-stroke: 0.7px var(--white);
+}
+
+/* .navbar-hidden {
+  transform: translateY(-150%);
+} */
