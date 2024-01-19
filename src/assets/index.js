@@ -1,5 +1,5 @@
 // SVG
-import logoWhite from './svg/logoWhite.svg'
+// import logoWhite from './svg/logoWhite.svg'
 import logoBlack from './svg/logoBlack.svg'
 import modeBlack from './svg/ModeBlack.svg'
 import modeWhite from './svg/ModeWhite.svg'
@@ -33,7 +33,7 @@ import heroBg from './img/knowledge/heroBg.jpg'
 import mainBg from './img/knowledge/mainBg.jpg'
 
 export {
-    logoWhite,
+    // logoWhite,
     logoBlack,
     modeBlack,
     modeWhite,
