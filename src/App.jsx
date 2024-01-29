@@ -9,6 +9,7 @@ import { useCustomCursor } from './context/CustomCursorContext'
 const App = () => {
 
   //ejemplo
+  //otro
   const [isContactVisible, setIsContactVisible] = useState(true)
   const [scrollY, setScrollY] = useState(0)
 
