@@ -1,5 +1,5 @@
 import { styles } from "../styles"
-import { react, nextjs, figma, tailwind, javascript, dotAzul, dotRojo } from '../assets'
+import { react, nextjs, figma, tailwind, javascript, dotAzul, dotRojo, angular } from '../assets'
 import OptionCard from "./OptionCard"
 // import { useCustomCursor } from "../context/CustomCursorContext"
 
@@ -8,6 +8,7 @@ const Knowledge = () => {
     // const { textEnter, textLeave } = useCustomCursor()
 
     const tools = [
+        { id: 0, title: 'Angular', icon: angular, dot: dotRojo },
         { id: 1, title: 'React', icon: react, dot: dotAzul },
         { id: 2, title: 'NextJS', icon: nextjs, dot: dotRojo },
         { id: 3, title: 'Tailwind CSS', icon: tailwind, dot: dotAzul },

@@ -4,6 +4,7 @@ import logoBlack from './svg/logoBlack.svg'
 import modeBlack from './svg/ModeBlack.svg'
 import modeWhite from './svg/ModeWhite.svg'
 import hamburguer from './svg/Hamburguer.svg'
+import angular from './svg/angular.svg'
 import react from './svg/react.svg'
 import nextjs from './svg/nextjs.svg'
 import tailwind from './svg/tailwind.svg'
@@ -40,6 +41,7 @@ export {
     hamburguer,
     heroBg,
     mainBg,
+    angular,
     react,
     tailwind,
     figma,
