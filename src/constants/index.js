@@ -4,6 +4,8 @@ import lyriks from '../assets/img/projects/lyriks.png'
 import milei from '../assets/img/projects/milei.png'
 import pp1 from '../assets/img/projects/pp1.png'
 import preciosabio from '../assets/img/projects/preciosabio.png'
+import juncos from '../assets/img/projects/juncos.png'
+import jump from '../assets/img/projects/jump.png'
 import sochic from '../assets/img/projects/sochic.png'
 import futbolapp1 from '../assets/img/projects/futbolapp1.png'
 import resumidor from '../assets/img/projects/resumidor.png'
@@ -12,6 +14,8 @@ import futbolapp2 from '../assets/img/projects/futbolapp2.png'
 import { linkedin, instagram, behance, github, dotAzul, dotRojo } from "../assets";
 
 export const imageProjects = [
+    { img: jump, titulo: 'Jump', año: '2024', numero: '#10', link: 'https://proyectojump.com/' },
+    { img: juncos, titulo: 'Juncos', año: '2024', numero: '#9', link: 'https://juncosproducciones.com.ar/' },
     { img: preciosabio, titulo: 'Precio Sabio', año: '2023', numero: '#8', link: 'https://preciosabio.netlify.app/' },
     { img: resumidor, titulo: 'Resumidor IA', año: '2023', numero: '#7', link: 'https://ab-resumidor-ia.netlify.app/' },
     { img: futbolapp1, titulo: 'Futbol Argentino App', año: '2023', numero: '#6', link: 'https://futbol-argentino-app.vercel.app/' },
